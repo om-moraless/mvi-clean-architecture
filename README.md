@@ -53,6 +53,14 @@ The Repository is an interface that specifies the input parameters and return ty
 **Data** The Data module includes RestClient, Database, Adapters, and so on. <br>
 Repository implementation: A repository enables data access and source selection based on conditions. <br>
 Adapters: An Adapter converts the database and network clients entities to Domain module entities and vice versa. <br>
-**Presentation** Presentation module comprises ViewModels and the UI. In addition, we connect all dependencies from our DI in this module.
+**Presentation** Presentation module comprises ViewModels and the UI. In addition, we connect all dependencies from our DI in this module. <br>
+
+### Jetpack Compose
+
+Jetpack Compose is Google's modern toolkit for building native Android UI. It's part of the Jetpack suite of libraries that aim to follow best practices, reduce boilerplate code, and write code that works consistently across Android versions and devices.
+
+Compose emphasizes a declarative approach to UI development, where you describe your UI by calling composables — functions that emit UI elements — instead of building a layout through an extensive XML structure. Composables react to the state changes and automatically update the UI with minimal input from the developer, allowing more time to be spent on crafting the user experience and less on managing the UI state.
+
+Another advantage of using Jetpack Compose is its deep integration with Kotlin.
 
 
