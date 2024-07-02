@@ -9,11 +9,11 @@ It is a single source of truth for all states. Model ensures that it will update
 **View:** View demands user action requests & renders UI as per observation. <br><br>
 **Intent:** It is the user action that the user can perform or requests from the Model. (Do not confuse it with Android Implicit and Explicit Intent).
 
-In MVI, State will update from only a single place of the app which is business logic (ViewModel). It will ensure that the State will not change from any other place so State can represent as a sealed class.
+In MVI, State will update from only a single place of the app which is business logic (ViewModel). It will ensure that the State will not change from any other place. So, State can be represented as a sealed class.
 
-The State holds the data and View observes those changes to render UI
+The State holds the data and the View observes those changes to render UI
 
-When a user wants to perform any operation then action can send through the intent from View. ViewModel will handle the action and the State will observe from View using Kotlin flow or live data.
+When a user wants to perform any operation then the action can be sent through the intent from the View. The ViewModel will handle the action and the State will observe from View using Kotlin flow or live data.
 
 ### MVI Flow:
 
